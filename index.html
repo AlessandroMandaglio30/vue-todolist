@@ -17,9 +17,10 @@
     <div id="root" class="container">
         <!-- HEADER -->
         <header>
-            <img src="https://www.boolean.careers/images/misc/logo.png" alt="Logo">
+            <img src="https://static.sportytrader.com/content/new//common-tennis/davis-cup/2021/pronostic-coupe-davis-2021-1.jpg"
+                alt="Logo">
             <div class="search">
-                <input v-model="newTodo" type="text" placeholder="Nuovo Todo" @keyup.enter="addTodo()">
+                <input v-model="newTodo" type="text" placeholder="Nuovo Evento" @keyup.enter="addTodo()">
                 <button @click="addTodo()">AGGIUNGI</button>
             </div>
         </header>
@@ -35,7 +36,7 @@
                         <i class="fas fa-times" @click="removeTodo(index)"></i>
                     </li>
                 </ul>
-                <h2 v-else>Non ci sono todo</h2>
+                <h2 v-else>Non ci sono eventi</h2>
             </div>
         </main>
         <!-- /MAIN -->

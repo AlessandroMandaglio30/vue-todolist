@@ -3,19 +3,23 @@ const app = new Vue({
     data: {
         todos: [
             {
-                name: "Fare l'esercizio dato da Samuele",
+                name: "Gufare la Croazia",
                 done: true
             },
             {
-                name: "Fare la spesa",
+                name: "Sperare in un miracolo di Sonego ",
                 done: true
             },
             {
-                name: "Cucinare il pranzo",
+                name: "Ore 16:00 Primo singolare",
                 done: false
             },
             {
-                name: "Pulire casa",
+                name: "Secondo singolare",
+                done: false
+            },
+            {
+                name: "Doppio",
                 done: false
             }
         ],

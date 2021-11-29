@@ -5,8 +5,9 @@
 }
 
 .container {
-	max-width: 1200px;
-	margin: auto;
+    height: 100vh;
+    background-image: url(https://www.supertennis.tv/media/REDAZIONE_NOVEMBRE_2021/20211116_Jannik_Sinner_GSP18646.JPG);
+    background-size: cover;
 }
 
 header {
@@ -14,7 +15,7 @@ header {
 }
 
 img{
-    width: 800px;
+    width: 500px;
 }
 
 main {
@@ -33,9 +34,12 @@ button{
 }
 
 .todos-container {
-	background-color: #eee;
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 15%;
 	padding: 15px;
     border-radius: 20px;
+    background:rgba(0,0,0,0.8);
 }
 
 .todos-list {
@@ -56,6 +60,6 @@ button{
 .todos-list li i {
 	margin-left: auto;
 	cursor: pointer;
-	color: black;
+	color: white;
 }
 
